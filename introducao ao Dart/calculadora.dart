@@ -8,6 +8,10 @@ void main() {
 
   final result = sum(num1, num2);
   print("O resultado da soma é: $result");
+
+  // Cast Ímplicito / Explícito
+  num numero = 45;
+  print(numero);
 }
 
 double sum(double num1, double num2) {
